@@ -1,0 +1,24 @@
+.authForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .registerForm {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .registerForm input {
+    padding: 5px 10px;
+    margin-bottom: 10px;  
+  }
+  
+  .registerForm button {
+    padding: 10px;
+  }

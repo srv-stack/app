@@ -1,0 +1,11 @@
+.cards {
+    display: flex; /* dacă doriți să aranjați cardurile într-un rând */
+    flex-wrap: wrap; /* permite cardurilor să treacă pe rândul următor la redimensionare */
+    justify-content: center; /* centrează cardurile în container */
+    gap: 15px; /* adaugă un spațiu între carduri */
+}
+.g-4, .gy-4 {
+	--mdb-gutter-y: 1.5rem;
+	padding-left: 40px;
+	padding-right: 40px;
+}
